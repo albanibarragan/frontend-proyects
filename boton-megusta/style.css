@@ -1,0 +1,41 @@
+body {
+    background-image: url("https://www.km77.com/revista/wp-content/uploads/2021/12/yellow.jpeg");
+    background-color: hsla(14, 100%, 53%, 0.6);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    background-color: #ffcc00;
+    padding: 16px 24px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.liked {
+    background-color: #ff1100;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}

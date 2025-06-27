@@ -1,0 +1,50 @@
+body{
+    background-color: #111;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: #1e1e1e;
+    width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    object-fit: cover;
+}
+
+#avatar{
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.card .team {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #ffcc00;
+}
+
+.card .traits p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.card blockquote {
+    font-style: italic;
+    font-size: 50px;
+    color: #ffcc00;
+    margin-top: 20px;
+}
