@@ -7,5 +7,5 @@ El objetivo de este proyecto es enseñarte a crear un CV estructurado de una sol
 - HTML5
 - CSS3
 
-Este proyecto forma parte del reto propuesto en:  
-[Roadmap: Single-page](https://roadmap.sh/projects/single-page-cv)
+Este proyecto forma parte del reto propuesto en: [Roadmap: Single-page](https://roadmap.sh/projects/single-page-cv)
+
