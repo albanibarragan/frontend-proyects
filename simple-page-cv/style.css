@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    padding: 40px;
+}
+
+h1{
+    border-top: 2px solid #000;
+    padding-top: 20px;
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #2E8B57;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: #1E90FF; 
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.link-section {
+    color: #2E8B57;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
