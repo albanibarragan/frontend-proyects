@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #d0bfff, #a17bf7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 30px;
+  width: 500px;
+  max-width: 90%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+h1 {
+  color: #6a0dad;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+#contador {
+  font-size: 70px;
+  font-weight: bold;
+  color: #6a0dad;
+  margin: 20px 0;
+}
+
+/* ====== BOTONES ====== */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#aumentar {
+  background-color: #7e3ff2;
+  color: white;
+}
+
+#aumentar:hover {
+  background-color: #6b30dc;
+  transform: scale(1.05);
+}
+
+#disminuir {
+  background-color: #dc3545;
+  color: white;
+}
+
+#disminuir:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}
+
+#reiniciar {
+  background-color: #ffc107;
+  color: white;
+}
+
+#reiniciar:hover {
+  background-color: #e0a800;
+  transform: scale(1.05);
+}
